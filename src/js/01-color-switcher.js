@@ -13,14 +13,12 @@ function onButtonStartClick() {
 
   start.setAttribute('disabled', '');
   stop.removeAttribute('disabled');
-  console.log(intervalId);
 }
 
 function onButtonStopClick() {
   clearInterval(intervalId);
   start.removeAttribute('disabled');
   stop.setAttribute('disabled', '');
-  console.log(intervalId);
 }
 
 function getRandomHexColor() {
